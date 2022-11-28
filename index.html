@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydro | Landing page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/icon.png">
+</head>
+<body>
+<!-- modal window for sign in or join -->
+<div class="modal-box">
+    <div class="close-button"><i class="fa-solid fa-xmark"></i></div>
+    <div class="company-name">Hydro Co</div>
+    <div class="buttons">
+        <button class="create-account active-button">Create a account</button>
+        <button class="sigh-in">Sigh In</button>
+    </div>
+    <div class="create-account__section">
+        <form>
+            <input type="text" placeholder="name">
+            <input type="tel" placeholder="tel">
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <button type="submit">Submit button</button>
+
+        </form>
+    </div>
+    <div class="sigh-in__section">
+        <form>
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <button type="submit">Submit button</button>
+            <h2 class="forgot-password">Forgot your password?</h2>
+        </form>
+    </div>
+ </div>
+
+ <!-- modal window for customers messages -->
+ <div class="messages-box">
+    <div class="close-button"><i class="fa-solid fa-xmark close-message__modal"></i></div>
+    <table  class="table">
+        <tr>
+            <th>#</th>
+            <th>FullName</th>
+            <th>Email</th>
+            <th>Phone number</th>
+            <th>Budget value</th>
+            <th>Message</th>
+        </tr>
+    </table>
+ </div>
+
+
+<!-- big box  -->
+<div class="big-container">
+        <!-- header section  -->
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Hydro</h1>
+            </div>
+            <div class="menus">
+                <div><a href="#header-section" class="home">Home</a></div>
+                <div><a href="#about-section" class="about">About</a></div>
+                <div><a href="#blog-section" class="blog">Blog</a></div>
+                <div><a href="#our-work-section" class="our-work">Our Work</a></div>
+                <div><a href="#cotact-section" class="contacts"></a></div>
+            </div>
+            <div class="icons">
+                <a href="https://youtube.com/channel/UCPT6M2aOG-HYssk2O8_ggGg"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://t.me/fintechhubuz"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.instagram.com/fintechhubuz/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#contact-section"><i class="fa-solid fa-envelope"></i></a>
+                <button class="sign-in__button">Sign in / Join</button>
+                <i class="fa-solid fa-envelope-open"></i>
+            </div>
+        </nav>
+        <header class="header-section" id="header-section">
+           <div class="main">
+                <div class="right-side">
+                    <h1 class="main-text">We make beautiful websites for all people.</h1>
+                    <div class="main-info">
+                        <div class="start-project__button">Start a project</div>
+                        <div class="main-text-call">CALL US (+66) 010-020-0340 <br>For any inquiry</div>
+                    </div>
+                </div>
+                <div class="left-side">
+                    <iframe src="https://www.youtube.com/embed/AqcjdkPMPJA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="main-video">
+                    </iframe>
+                </div>
+            </div>
+        </header>
+        
+        <!-- about section  -->
+        <div class="about-section" id="about-section">
+            <div class="about-text">
+                <div class="title">Let us introduce</div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+                <div class="subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna
+                    aliqua. Ut enim ad minim.
+                </div>
+                <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</div>
+            </div>
+            <div class="chard">
+                <div>
+                    <div class="skill">Web Design</div>
+                    <div class="percent">85%</div>
+                </div>
+                <div class="line l85"></div>
+                <div>
+                    <span class="skill">Photography</span>
+                    <span class="percent">90%</span>
+                </div>
+                <div class="line l90"></div>
+                <div>
+                    <span class="skill">Content Marketing</span>
+                    <span class="percent">75%</span>
+                </div>
+                <div class="line l75"></div>
+                <div>
+                    <span class="skill">CMS Admin</span>
+                    <span class="percent">70%</span>
+                </div>
+                <div class="line l70"></div>
+            </div>
+            <div class="photo">
+                <img src="./images/about-image.png" alt="my photo">
+            </div>
+        </div>
+        
+        <!-- blog section  -->
+        <div class="blog-section" id="blog-section">
+            <div class="blog-header">
+                <div class="title">Our blog</div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+            </div>
+            <div class="blogs-container">
+            </div>
+        </div>
+        
+        <!-- our work section  -->
+        <div class="our-work-section" id="our-work-section">
+            <div class="work-header">
+                <div class="title">Our works</div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+            </div>
+            <div class="works-container"></div>
+        </div>
+        
+        <!-- contact section  -->
+        <div class="contact-section" id="contact-section">
+            <div class="contact-header">
+                <div class="title">Contact us</div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+                <div class="dottes"></div>
+            </div>
+            <div class="contact-container">
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="Full nmae" class="name">
+                        <input type="email" placeholder="email" class="email"> <br>
+                        <input type="tel" placeholder="Phone" class="phone">
+                        <select class="prices">
+                            <option value="500$-1000#">550$ to 1000$</option>
+                            <option value="1000$-2200$">1000$ to 2200$</option>
+                            <option value="2200$-4500$">2200$ to 4500$</option>
+                            <option value="4500$-7500$">4500$ to 7500$</option>
+                            <option value="7500$-12000$">7500$ to 12000$</option>
+                            <option value="12000$-more">12000$ and more</option>
+                        </select> <br>
+                        <textarea cols="20" rows="5" class="textarea"></textarea><br>
+                        <button class="send-message__button">Send Message</button>
+                    </form>
+                </div>
+                <div class="location">
+                    <img src="./images/location.png" alt="location" width="100px">
+                </div>
+            </div>
+        </div>
+        <!-- footer setion  -->
+        <div class="footer-section">
+            <div class="up">
+                <div class="row1">
+                    <h3 class="footet-title">Hydro Company</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna
+                        aliqua.</p>
+                </div>
+                <div class="row2">
+                    <h3 class="footet-title">Company</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Join our team</li>
+                        <li>Read Blog</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div class="row3">
+                    <h3 class="footet-title">Services</h3>
+                    <ul>
+                        <li>Pricing</li>
+                        <li>Documentation</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+                <div class="row4">
+                    <h3 class="footet-title">Find us</h3>
+                    <p>123 Grand Rama IX,
+                        Krung Thep Maha Nakhon 10400</p>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="down">
+                <p>Copyright © 2017 Your Company</p>
+                <p>Call us (+66) 010-020-0340</p>
+                <p>
+                    <a href="https://youtube.com/channel/UCPT6M2aOG-HYssk2O8_ggGg"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://t.me/fintechhubuz"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/fintechhubuz/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#contact-section"><i class="fa-solid fa-envelope"></i></a>
+                </p>
+            </div>
+        </div>
+
+</div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
